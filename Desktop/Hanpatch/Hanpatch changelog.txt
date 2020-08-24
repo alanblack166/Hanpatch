@@ -1,83 +1,3 @@
-________________________________________________
-v23.2
-
-VANILLA BUG FIXES:
-
-Ambulances can now be hijacked.
-Leopards, Gepards and Jagdmammuts with manned machineguns can now be hijacked.
-
-HP BUG FIXES:
-
-Mortar Pit Canisters now correctly target only infantry.
-Rebels aren't retarded anymore.
-ECM Satellite is no longer erroneously replaced by the Artillery Strike.
-Heroic Blackbear does not benefit from veterancy fire rate increase as intended.
-
-CHANGES
-
-Mole Minelayer mine dispersal effects have been removed to reduce FPS drops when laying mines.
-ECA primary income has been restored to vanilla values.
-Leopards, Gepards and Jagdmammuts with manned machineguns can now be hijacked.
-Hijackers no longer survive the destruction of the vehicles they steal.
-Quad Cannon default anti-air range has been increased from 230 to 250.
-Armor Piercing Bullets no longer increase the Quad Cannon's anti-air range.
-Armor Piercing Bullets damage bonus for the Quad Cannon is restored to original 25%.
-Osprey Dismiss untargetability delay has been increased from 2.5 to 3.5 seconds.
-________________________________________________
-v23.1
-
-VANILLA BUG FIXES:
-
-Patriot SAM will now properly damage and kill Plague Dusters and Blackhawks.
-Hero infantry unit decals no longer block construction.
-Russian Field Quarters are no longer selectable with the "select all units" hotkey.
-
-HP BUG FIXES:
-
-Boris now has his hero decal once more.
-Ranger Flashbangs no longer deal double the intended damage.
-Bulldog Turret no longer has a minimum range.
-Recycler Reverse Engineering now states that it requires Rank 3.
-Pandur Heavy Snipers now use the correct firing sound when targeting vehicles.
-Pathfinders should no longer remain permanently stealthed even when using unsilenced rifle.
-
-CHANGES:
-
-Tank Trap Barricades now grant 25 experience when destroyed.
-Guard Tower fire rate has been reverted.
-Guard Tower scatter radius has been removed.
-Guard Tower now has a minimum attack range of 20.
-Pioneers no longer have the Airburst Barrage.
-Pioneer Tear Gas rounds have been reintroduced.
-Gepards in Digouts can now engage ballistic missiles.
-Heavy Sniper anti-infantry weapon damage has been increased from 100 to 120.
-Jumpjet Infantry build time has been increased from 8 to 10 seconds.
-Anvil Bots can now be properly disabled by Jarmen.
-Anvil Bot health has been reduced from 800 to 600.
-Gepard anti-air damage has been reduced from 13 to 12.
-Gepard's damage type is no longer upgraded with Revolver Cannons.
-Revolver Cannons increase Gepard's damage by 33%.
-Revolver Cannons now upgrade the Gepard's anti-air damage from 9 to 12. 
-Revolver Cannons now upgrade the Gepard's anti-ground damage from 12 to 15.
-Gepards in Digouts now use GATTLING instead of SMALL_ARMS.
-Revolver Cannons increase Digout Gepard damage by 20%.
-Leopard Tank build time has been increased from 18 seconds to 22 seconds.
-Mounted machinegun damage type has been changed from COMANCHE_VULCAN to GATTLING.
-Fenris anti-infantry cryobeam damage type has been changed from POISON to MELEE.
-
-Scud Launcher primary damage has been changed to 200.
-Scud Launcher primary radius has been changed to 5.
-Scud Launcher secondary damage has been changed to 20.
-Scud Launcher secondary radius has been changed to 50.
-Scud Launcher reload time has been decreased from 7.5 seconds to 6.5 seconds.
-Anarchists now benefit from Fanatical Devotion, which increases their movement speed by 25%.
-Sabotage GP damage has been restored to vanilla values: 50/100/150.
-Sabotage GP effect duration has been increased from 4/60/10 to 5/10/15.
-
-Missile Defender Laser Lock no longer works like a long-range relay.
-Activating Laser Guidance now increases Missile Defender anti-ground range by 5%, anti-air range by 20%, changes the damage type to ARMOR_PIERCING, adds a per-shot prefire delay and cuts the fire rate in half.
-
-________________________________________________
 v23
 
 1v1 superweapon restriction has been lifted.
@@ -171,11 +91,7 @@ Beacons will no longer crash the game when selected with units and told to maint
 Many projectile weapons have been given a minimum attack range to resolve certain mismatches.
 Targeteer and Battle Drones no longer get physically and visibly damaged - they're invulnerable anyway.
 USA Detention Camp, Command Center, Supply Center, Drone Control Center, China Command Center, Propaganda Center and Russia Weapons Bunker will no longer aggro enemy units.
-Patriot SAM will now properly damage and kill Plague Dusters and Blackhawks.
-Hero infantry unit decals no longer block construction.
-Russian Field Quarters are no longer selectable with the "select all units" hotkey.
-Ambulances can now be hijacked.
-Leopards, Gepards and Jagdmammuts with manned machineguns can now be hijacked.
+
 
 In an effort to reduce crashes and improve performance: 
 
@@ -187,7 +103,6 @@ China mine model has been replaced with the stock ZH model for better performanc
 Bloodhound decals that indicate possession of Chaff launchers have been removed.
 The way GLA acquires the High Explosives upgrade no longer relies on FWU.
 USA Backup Generator and Detention Camp visuals no longer rely on FWU.
-Mole Minelayer mine dispersal effects have been removed to reduce FPS drops when laying mines.
 _________________________________________________________________________________________________
 GENERAL CHANGES:
 
@@ -244,7 +159,6 @@ Vanguard Mine Drone damage is increased from 150 to 250 by the Drone Weaponry up
 Wasp Hive drones now deploy 300% faster. 
 Repair Drone PDL delay between shots has been reduced from 2 seconds to 1.5 seconds.
 Osprey is now refunded for 100% of its cost. 
-Osprey Dismiss untargetability delay has been increased from 2.5 to 3.5 seconds.
 Comanche stealth ability duration has been reduced from 12 seconds to 6. 
 Viper range has been increased from 190 to 210.
 Little Birds now come with 2 rangers.
@@ -270,8 +184,6 @@ SEAL charge damage has been reduced from 7000 EXPLOSION to 450 AURORA_BOMB.
 SEAL C4 reload time has been reduced from 6 to 3 seconds. 
 SEAL bombs now detonate almost instantly.
 SEAL bombs now scale with veterancy.
-Missile Defender Laser Lock no longer works like a long-range relay.
-Activating Laser Guidance now increases Missile Defender anti-ground range by 5%, anti-air range by 20%, changes the damage type to ARMOR_PIERCING, adds a per-shot prefire delay and cuts the fire rate in half.
 ________________________________________
 
 Cyclops' PDL mode damage has been increased from 20 to 35.
@@ -385,7 +297,8 @@ Battle Bus no longer comes with 4 Tunnel Defenders.
 Battle Bus price has been reduced to 800.
 Battle Bus armor versus bullets has been reduced from 50-43-35% to 75-64-53% [50% more damage]. 
 Battle Bus second life armor versus GATTLING has been reduced from 10-8-7% to 25-22-18% [150% more damage and closer to other bullet types]. 
-Quad Cannon anti-air range has been increased from 230 to 250.
+Quad Cannon damage bonus from Armor Piercing Bullets has been reduced from 25% to 20%.
+Quad Cannon range is now increased from 230 to 250 [13%] by Armor Piercing Bullets
 Quad Cannon Canister upgrade now gives it splash without reducing any other weapon stat.
 Quad Cannon price has been reduced from 800 to 700. 
 Combat Cycle price has been increased from 400 to 500. 
@@ -393,7 +306,7 @@ Combat Cycles now require a built Chemical Lab in order to be stealthed after Ca
 Rocket Buggy damage has been increased from 15 to 20 [rolled back to old values]. 
 BM21 Grad Missile health has been reduced from 135 to 100.
 BM21 Grad Missile primary and secondary radii have been reduced from 50/100 to 10/25. 
-Scud Launcher reintroduced as a T2 siege unit: Only fires explosive warheads, $1500 build cost, 15 second build time, 450 range, 200 AURORA_BOMB damage.
+Scud Launcher reintroduced as a T2 siege unit: Only fires explosive warheads, $1500 build cost, 15 second build time, 450 range, 100 AURORA_BOMB damage vs units, deals additional 150 AURORA_BOMB against structures.
 Bomb Trucks are now more resistant to damage.
 Bomb Trucks are now immune to mines.
 Bio Bomb Truck wreck anthrax radius has been increased from 80 to 140.
@@ -418,16 +331,14 @@ Anarchist hotkey changed to N to avoid conflict with Capture Building.
 Anarchists now require an Arms Dealer.
 Anarchists can now clear buildings.
 Anarchist range has been increased from 100 to 125. 
-Anarchist now attacks with a weapon that deals 50 AURORA_BOMB to structures and 25 EXPLOSION to units.
+Anarchist now attacks with a weapon that deals 25 AURORA_BOMB.
 Anarchist reload time has been reduced from 1250 to 750.
 Anarchists on bikes have the same weapon as on foot but with a 50% higher rate of fire.
-Anarchists now benefit from Fanatical Devotion, which increases their movement speed by 25%.
 Partisan rifle damage has been increased from 30/40 to 40/50. 
 Bike Partisan rifle damage has been increased from 30 to 40. 
 Hijackers now require an Arms Dealer.
 Hijacker price has been increased from 400 to 500.
 Hijackers now stealth like other GLA infantry and no longer reveal themselves when close to an enemy unit.
-Hijackers no longer survive the destruction of the vehicles they steal.
 Stinger Soldiers no longer use a pistol.
 Rebel Molotov Cocktail garrison clearing has been improved from 0-1 to 1-2 occupants.
 Jarmen Kell's suppression no longer blocks Hijackers from hijacking enemy vehicles.
@@ -457,7 +368,8 @@ Dushka Nest experience value has been reduced from 150 to 100.
 Fortified Structure health bonus has been reduced from 500 to 400 [still a 50% boost].
 ________________________________________
 
-Sabotage duration has been reduced from 10/15/20 to 5/10/15 seconds.
+Sabotage damage has been reduced from 50/100/150 to 25/50/75.
+Sabotage duration has been reduced from 10/15/20 to 3/6/10 seconds.
 Refined Combat Drugs no longer damage infantry.
 Refined Combat Drugs duration has been increased from 25 to 30.
 ________________________________________
@@ -562,7 +474,6 @@ ECA CHANGES:
 ________________________________________
 ECA Pandora and Neutron Bomb have been overhauled internally so as to reduce the number of objects and weapons they iterate and actuate. Damage may be slightly increased or reduced versus certain targets. 
 ECA Structures have been optimized.
-Howitzer Relay mechanic has been removed - caused massive performance issues later on.
 
 Cheetah is no longer active by default.
 Dozer price has reduced from 1000 to 750.
@@ -570,11 +481,10 @@ Mole Minelayers can now attack garrisoned civilian buildings.
 Jagdmammut range has been reduced from 230/285 to 220/275.
 Leopard canister round damage type has been changed to SNIPER.
 Leopard canister damage has been reduced from 45 to 25.
-Leopard build time has been increased from 20 to 22 seconds.
+Leopard build time has been reduced from 20 to 18 seconds.
 Leopard price has been increased from 1100 to 1200.
 Fenris range has been reduced from 300 to 250. 
 Fenris overcharge now has a 2 second prefire. 
-Fenris anti-infantry cryobeam damage type has been changed from POISON to MELEE.
 Mobile Sensory Array armor versus AURORA_BOMB has been reduced from 50% to 100%.
 Mobile Sensory Array health has been reduced from 360/415 to 320/400.
 Warhound C4 reload time has been increased from 12 seconds to 15 seconds.
@@ -597,16 +507,6 @@ Pandora speed has been increased from 20 to 25.
 Pandora speed when damaged has been increased from 18 to 20.
 Pandora turnrate has been increased from 40 to 60.
 Pandora turn rate when damaged has been increased from 30 to 45.
-Supply Truck time to deposit has been increased from 1200 to 1333.
-Gepard anti-air damage has been reduced from 13 to 12.
-Gepard's damage type is no longer upgraded with Revolver Cannons.
-Revolver Cannons increase Gepard's damage by 33%.
-Revolver Cannons now upgrade the Gepard's anti-air damage from 9 to 12. 
-Revolver Cannons now upgrade the Gepard's anti-ground damage from 12 to 15.
-Gepards in Digouts now use GATTLING instead of SMALL_ARMS.
-Revolver Cannons increase Digout Gepard damage by 20%.
-Anvil Bots can now be properly disabled by Jarmen.
-Anvil Bot health has been reduced from 800 to 600.
 
 Harriers no longer use their missiles on infantry. 
 Harrier Chaff ability is now locked behind Chaff Countermeasures upgrade. 
@@ -626,7 +526,6 @@ Frank Jaeger shotgun secondary damage radius has been increased from 15 to 20.
 Frank Jaeger sniper rifle damage type has been changed from GATTLING to SMALL_ARMS.
 Heavy Sniper deploy/undeploy times have been reduced from 2970 to 2000.
 Heavy Sniper price has been increased from 600 to 700.
-Heavy Sniper anti-infantry weapon damage has been increased from 100 to 120.
 Heavy Sniper anti-vehicle weapon damage type has been changed from GATTLING to SMALL_ARMS.
 Heavy Sniper anti-vehicle weapon damage has been reduced from 130 to 90. 
 Heavy Sniper anti-vehicle weapon now deals an additional 40 GATTLING. 
@@ -635,10 +534,10 @@ Pioneer canister damage type has been changed from GATTLING to SNIPER.
 Pioneers are now armed with the mortar by default.
 Pioneer armor versus EXPLOSION has been changed from 100% to 75% [33% less damage taken].
 Pioneer submachine gun reloadtime has been reduced from 1000 to 700.
-Pioneers in Open Top Fortifications now fire airburst rounds - moderate AOE, good vs infantry and light vehicles.
+Pioneer Tear Gas rounds have been removed.
+Pioneers now have a targeted area ability to fire off a rapid volley of 6 airburst shells with a 30 second cooldown.
 Grenadier deploy/undeploy times have been reduced from 4620 to 4000.
 Grenadier damage and projectile have been reverted to 1.86: from 10 AURORA_BOMB vs everything to 17/20 INFANTRY_MISSILE vs vehicles and structures + 11 SURRENDER vs infantry.
-Jumpjet Infantry build time has been increased from 8 to 10 seconds.
 Jumpjet Infantry now immediately go airborne upon being built. 
 Viking Venom minimum range has been reduced from 210 to 190.
 ________________________________________
@@ -656,13 +555,12 @@ Howitzer Relay mechanic removed due to causing severe performance issues.
 Howitzer Relay has been repurposed into a stealth detecting emplacement and renamed to Sector Scanner. Sector Scanner is locked behind Prepared Defences. 
 Guard Towers now require Vehicle Assembly or Field Command instead of a Solar Reactor. 
 Guard Towers no longer have a stealth detection mode with Prepared Defences. 
-Guard Tower scatter radius has been removed.
-Guard Tower now has a minimum attack range of 20.
+Guard Tower no longer fires continuously.
+Guard Tower now fires a burst of 12 shots with a 0.8 second reload time, effectively cutting dps in half. 
+Guard Tower fire rate is restored to full auto under the effects of Munitions Tracks/Bunkers.
 Howitzer Position delay between shots has been increased from 1500 to 1700. 
 Skyshield fire rate is no longer random: from 200-400/150-300 it is now a fixed 266/200. 
-Tank Trap Barricades now grant 25 experience when destroyed.
-Gepards in Digouts can now engage ballistic missiles.
-Fortification build cost has been increased from 0 to 300.  
+Fortification build cost has been increased from 0 to $300.  
 Fortification upgrades are now free.  
 Open Top Fortification no longer comes with a machine gunner.  
 Satellite Uplink now grants income equal to 3 Telecom Towers: $60 every 2.5 seconds
@@ -684,8 +582,8 @@ Gepards and Leopards, when called in via Deployment Zone battlegroup, now come w
 Barracks prerequisites have been added to aforementioned battlegroups.  
 ________________________________________
 
-Mounted machinegun damage type has been changed from COMANCHE_VULCAN to GATTLING.
 Manticore protocol now grants manned machine guns by default.
 Proximity grenades are no longer default - they need to be unlocked by Canister Rounds. 
 Eurofighter bomblet strike damage has been increased from 16 to 18.
 Eurofighter bomblet strike primary damage radius has been increased from 30 to 35.
+
